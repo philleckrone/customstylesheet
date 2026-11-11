@@ -22,7 +22,7 @@ function Get-AzureSpeechSetting($name) {
 # user's request.
 $script:SayAs = @{
     # Custom Stylesheet Editor: file names and markers spelled out.
-    'en' = @{ 'Paratext' = 'Pair-uh-text'; 'custom.sty' = 'custom dot S T Y'; 'usfm.sty' = 'U S F M dot S T Y'; 'USFM' = 'U S F M'; 'zcheck' = 'Z check'; 'text_blue' = 'text blue' }
+    'en' = @{ 'Paratext' = 'Pair-uh-text'; "Paratext's" = 'Pair-uh-texts'; 'custom.sty' = 'custom dot S T Y'; 'usfm.sty' = 'U S F M dot S T Y'; 'USFM' = 'U S F M'; 'zcheck' = 'Z check'; 'text_blue' = 'text blue' }
     # Unicode codes digit by digit (this file stays ASCII: [char] for the accents).
     'es' = @{ 'custom.sty' = 'custom punto S T Y'; 'usfm.sty' = 'U S F M punto S T Y'; 'USFM' = 'U S F M'; 'zcheck' = 'zeta check'; 'text_blue' = 'text blue' }
     'fr' = @{ 'custom.sty' = 'custom point S T Y'; 'usfm.sty' = 'U S F M point S T Y'; 'USFM' = 'U S F M'; 'zcheck' = "z$([char]0xE8)de check"; 'text_blue' = 'text blue' }
@@ -35,10 +35,19 @@ function Speak-Azure([string]$Text, [string]$Voice, [string]$OutFile, [string]$R
     $lang = ($Voice -split '-')[0..1] -join '-'
     $esc = [Security.SecurityElement]::Escape($Text)
     $words = $script:SayAs[($lang -split '-')[0]]
-    if ($words) {
-        foreach ($w in $words.Keys) {
-            $esc = [regex]::Replace($esc, '\b' + [regex]::Escape($w) + '\b', "<sub alias='$($words[$w])'>$w</sub>")
-        }
+    if ($words -and $words.Count) {
+        # One pattern for all the words, longest first, so "Paratext's" wins over "Paratext" and no
+        # <sub> lands inside another. The words are matched as the text was escaped above (' is
+        # &apos;); a typographic apostrophe is accepted too.
+        $keys = @($words.Keys | Sort-Object { $_.Length } -Descending)
+        $alts = @($keys | ForEach-Object { [regex]::Escape([Security.SecurityElement]::Escape($_)).Replace('&apos;', "(?:&apos;|$([char]0x2019))") })
+        $rx = New-Object Text.RegularExpressions.Regex ('(?<!\w)(' + ($alts -join '|') + ')(?!\w)')
+        $esc = $rx.Replace($esc, [Text.RegularExpressions.MatchEvaluator] {
+            param($m)
+            $i = 0
+            for ($k = 0; $k -lt $keys.Count; $k++) { if ([regex]::IsMatch($m.Value, '^(?:' + $alts[$k] + ')$')) { $i = $k; break } }
+            "<sub alias='$($words[$keys[$i]])'>$($m.Value)</sub>"
+        })
     }
     $ssml = "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='$lang'>" +
         "<voice name='$Voice'><prosody rate='$Rate'>$esc</prosody></voice></speak>"
