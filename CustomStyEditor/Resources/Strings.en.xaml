@@ -1,0 +1,167 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- Menu -->
+    <sys:String x:Key="Menu_File">_File</sys:String>
+    <sys:String x:Key="Menu_New">_New</sys:String>
+    <sys:String x:Key="Menu_Open">_Open…</sys:String>
+    <sys:String x:Key="Menu_Save">_Save</sys:String>
+    <sys:String x:Key="Menu_SaveAs">Save _As…</sys:String>
+    <sys:String x:Key="Menu_Exit">E_xit</sys:String>
+
+    <!-- Toolbar / project bar / banner -->
+    <sys:String x:Key="Toolbar_Language">Language:</sys:String>
+    <sys:String x:Key="ProjectBar_Format">Project: {0}</sys:String>
+    <sys:String x:Key="ProjectBar_Base">Base stylesheet: {0}</sys:String>
+    <sys:String x:Key="ProjectBar_BaseMissing">Base stylesheet {0} was not found, so stock values and marker lists are not available.</sys:String>
+    <sys:String x:Key="Banner_Reminder">Paratext reads custom.sty only when it starts: after saving, close Paratext and open it again to see the changes.</sys:String>
+
+    <!-- Marker list -->
+    <sys:String x:Key="Column_Disabled">Off</sys:String>
+    <sys:String x:Key="Column_Marker">Marker</sys:String>
+    <sys:String x:Key="Column_Name">Name</sys:String>
+    <sys:String x:Key="Column_Changes">Changes</sys:String>
+    <sys:String x:Key="Column_Status">Status</sys:String>
+    <sys:String x:Key="Tip_DisabledColumn">Ticked: the whole entry is commented out with #, so Paratext ignores it.</sys:String>
+    <sys:String x:Key="Btn_AddStock">Add stock marker…</sys:String>
+    <sys:String x:Key="Btn_NewMarker">New marker…</sys:String>
+    <sys:String x:Key="Btn_Remove">Remove from stylesheet</sys:String>
+    <sys:String x:Key="Btn_Restore">Restore marker</sys:String>
+    <sys:String x:Key="Btn_Delete">Delete</sys:String>
+    <sys:String x:Key="Tip_AddStock">Customize a marker of the base stylesheet.</sys:String>
+    <sys:String x:Key="Tip_NewMarker">Define a marker that the base stylesheet does not have. It is added at the end of custom.sty.</sys:String>
+    <sys:String x:Key="Tip_Remove">Writes \Marker name - so that Paratext no longer offers the marker.</sys:String>
+    <sys:String x:Key="Tip_Delete">Deletes every line of this entry from custom.sty; the marker goes back to its stock style.</sys:String>
+    <sys:String x:Key="Status_New">new</sys:String>
+    <sys:String x:Key="Status_Removed">removed</sys:String>
+    <sys:String x:Key="Status_Disabled">commented out</sys:String>
+    <sys:String x:Key="Status_Warning">⚠ check</sys:String>
+
+    <!-- Property panel -->
+    <sys:String x:Key="Panel_Empty">Select a marker on the left, or add one with the buttons below the list.</sys:String>
+    <sys:String x:Key="Panel_DisabledNote">This entry is commented out (#), so Paratext ignores it. Untick Off in the list to edit it.</sys:String>
+    <sys:String x:Key="Panel_RemovedNote">\Marker {0} - removes this marker from the project's stylesheet. Choose Restore marker to use it again.</sys:String>
+    <sys:String x:Key="Panel_NewNote">\{0} is not in the base stylesheet: it is a new marker.</sys:String>
+    <sys:String x:Key="Group_Identity">Name and type</sys:String>
+    <sys:String x:Key="Group_TextFormat">Text format</sys:String>
+    <sys:String x:Key="Group_Font">Font and color</sys:String>
+    <sys:String x:Key="Group_Paragraph">Paragraph</sys:String>
+    <sys:String x:Key="Group_Placement">Where it may occur</sys:String>
+    <sys:String x:Key="Group_Other">Other</sys:String>
+    <sys:String x:Key="Group_OtherLines">Other lines in this entry</sys:String>
+    <sys:String x:Key="Tip_LineEnabled">Ticked: Paratext uses this line. Unticked: the line is commented out with #.</sys:String>
+    <sys:String x:Key="Tip_Clear">Remove this line from custom.sty (the stock value applies again).</sys:String>
+    <sys:String x:Key="Row_Stock">{0}: {1}</sys:String>
+    <sys:String x:Key="Row_NotSet">(not set)</sys:String>
+    <sys:String x:Key="Row_Overridden">Also set on line {0}. Paratext uses the last line and reports a duplicate.</sys:String>
+    <sys:String x:Key="Flag_NotSet">(not set)</sys:String>
+    <sys:String x:Key="Flag_On">Yes</sys:String>
+    <sys:String x:Key="Flag_Off">No (\{0} -)</sys:String>
+    <sys:String x:Key="Flag_StockOn">yes</sys:String>
+    <sys:String x:Key="Flag_StockOff">no</sys:String>
+    <sys:String x:Key="Color_Pick">Choose color…</sys:String>
+    <sys:String x:Key="Color_NamesLabel">Paratext color name:</sys:String>
+    <sys:String x:Key="Color_UnknownName">(unknown color name)</sys:String>
+    <sys:String x:Key="Btn_Choose">Choose…</sys:String>
+    <sys:String x:Key="Unit_Points">pt</sys:String>
+    <sys:String x:Key="Unit_Inches">inches</sys:String>
+    <sys:String x:Key="Unit_LineSpacing">0 = single, 1 = 1½, 2 = double</sys:String>
+    <sys:String x:Key="Note_TextProperties">Paratext adds these words to the base stylesheet's text properties; custom.sty cannot take any away.</sys:String>
+
+    <!-- Keyword tooltips (from the Paratext help) -->
+    <sys:String x:Key="KwTip_Name">The name shown in the marker list. It must be unique; edit it to localize marker names.</sys:String>
+    <sys:String x:Key="KwTip_Description">A comment describing the marker. "(basic)" at the end lists it with the basic markers.</sys:String>
+    <sys:String x:Key="KwTip_StyleType">Paragraph, Character, Note or Milestone.</sys:String>
+    <sys:String x:Key="KwTip_Endmarker">The end marker, if any (for example f*).</sys:String>
+    <sys:String x:Key="KwTip_TextType">The kind of text: VerseText, Title, Section, NoteText, Other, BackTranslation...</sys:String>
+    <sys:String x:Key="KwTip_TextProperties">Properties such as paragraph, publishable, vernacular, poetic, level_1.</sys:String>
+    <sys:String x:Key="KwTip_Bold">Text is bold.</sys:String>
+    <sys:String x:Key="KwTip_Italic">Text is italic.</sys:String>
+    <sys:String x:Key="KwTip_Underline">Text is underlined.</sys:String>
+    <sys:String x:Key="KwTip_Smallcaps">Text is shown in small capitals.</sys:String>
+    <sys:String x:Key="KwTip_Superscript">Text is raised.</sys:String>
+    <sys:String x:Key="KwTip_Subscript">Text is lowered.</sys:String>
+    <sys:String x:Key="KwTip_Regular">Turns bold, italic and superscript off.</sys:String>
+    <sys:String x:Key="KwTip_Fontname">Font for this marker. Without it, the project's font is used.</sys:String>
+    <sys:String x:Key="KwTip_FontSize">Font size in points, relative to 12 (the project's font size setting shifts it).</sys:String>
+    <sys:String x:Key="KwTip_Color">Text color: a Paratext color name (good for low vision or color blindness) or an exact color.</sys:String>
+    <sys:String x:Key="KwTip_Justification">Left, Center, Right or Both.</sys:String>
+    <sys:String x:Key="KwTip_LeftMargin">Indent of the whole paragraph, in inches.</sys:String>
+    <sys:String x:Key="KwTip_RightMargin">Right indent of the paragraph, in inches.</sys:String>
+    <sys:String x:Key="KwTip_FirstLineIndent">Extra indent of the first line, in inches (negative for a hanging indent).</sys:String>
+    <sys:String x:Key="KwTip_SpaceBefore">Extra space before the paragraph, in points.</sys:String>
+    <sys:String x:Key="KwTip_SpaceAfter">Extra space after the paragraph, in points.</sys:String>
+    <sys:String x:Key="KwTip_LineSpacing">Extra space between lines: 0 = single, 1 = one and a half, 2 = double.</sys:String>
+    <sys:String x:Key="KwTip_OccursUnder">Markers this marker may occur under, separated by spaces. NEST lets a character style nest in another.</sys:String>
+    <sys:String x:Key="KwTip_Rank">With OccursUnder, the order of markers under the same parent.</sys:String>
+    <sys:String x:Key="KwTip_NotRepeatable">The marker must not be repeated under its parent.</sys:String>
+    <sys:String x:Key="KwTip_Attributes">USFM 3 attributes the marker accepts (? = optional).</sys:String>
+
+    <!-- Preview / file text -->
+    <sys:String x:Key="Preview_Title">Preview (approximate)</sys:String>
+    <sys:String x:Key="FileText_Title">Lines in custom.sty</sys:String>
+    <sys:String x:Key="Preview_Sample">In the beginning God created the heavens and the earth. The earth was without form and void, and darkness was over the face of the deep.</sys:String>
+    <sys:String x:Key="Preview_Before">Text before</sys:String>
+    <sys:String x:Key="Preview_Styled">styled text</sys:String>
+    <sys:String x:Key="Preview_After">and text after.</sys:String>
+    <sys:String x:Key="Preview_Milestone">A milestone has no text to preview.</sys:String>
+    <sys:String x:Key="Preview_Removed">This marker is removed from the stylesheet.</sys:String>
+
+    <!-- Warnings -->
+    <sys:String x:Key="Warn_Duplicate">\Marker {0} appears {1} times. Paratext reports a duplicate style definition.</sys:String>
+    <sys:String x:Key="Warn_DuplicateAttr">\{0} is set more than once in this entry (lines {1}). Paratext uses the last one and reports a duplicate.</sys:String>
+    <sys:String x:Key="Warn_DashName">\Marker {0} defines a new marker named "{0}". To remove \{1}, write \Marker {1} - (with a space).</sys:String>
+    <sys:String x:Key="Warn_Stray">Line {0} is not commented out, but the \Marker line above it is, so Paratext applies the line to the marker before.</sys:String>
+    <sys:String x:Key="Warn_NeedsName">A new marker needs \Name and \StyleType, or Paratext reports an error.</sys:String>
+    <sys:String x:Key="Warn_UnknownMarkers">Not in the stylesheet: {0}</sys:String>
+    <sys:String x:Key="Warn_UnknownWords">Not valid here: {0}</sys:String>
+    <sys:String x:Key="Warn_Invalid">"{0}" is not a valid value for \{1}.</sys:String>
+    <sys:String x:Key="Warn_Orphans">{0} line(s) above the first \Marker are ignored by Paratext.</sys:String>
+
+    <!-- Status bar / app -->
+    <sys:String x:Key="App_Title">Custom Stylesheet Editor</sys:String>
+    <sys:String x:Key="Status_Unsaved">(unsaved)</sys:String>
+    <sys:String x:Key="Status_SummaryFormat">{0} markers in the file</sys:String>
+    <sys:String x:Key="Status_WarningsFormat">{0} to check</sys:String>
+    <sys:String x:Key="Status_Saved">Saved.</sys:String>
+
+    <!-- Dialogs -->
+    <sys:String x:Key="Btn_OK">OK</sys:String>
+    <sys:String x:Key="Btn_Cancel">Cancel</sys:String>
+    <sys:String x:Key="Dlg_SaveErrorTitle">Save Error</sys:String>
+    <sys:String x:Key="Dlg_SaveErrorBody">Could not save file:</sys:String>
+    <sys:String x:Key="Dlg_OpenErrorTitle">Open Error</sys:String>
+    <sys:String x:Key="Dlg_OpenErrorBody">Could not open file:</sys:String>
+    <sys:String x:Key="Dlg_UnsavedTitle">Unsaved Changes</sys:String>
+    <sys:String x:Key="Dlg_UnsavedBody">There are unsaved changes. Save before continuing?</sys:String>
+    <sys:String x:Key="Dlg_OpenTitle">Open Stylesheet</sys:String>
+    <sys:String x:Key="Dlg_SaveTitle">Save Stylesheet</sys:String>
+    <sys:String x:Key="Dlg_FileFilter">Stylesheets (*.sty)|*.sty|All files (*.*)|*.*</sys:String>
+    <sys:String x:Key="Dlg_DeleteTitle">Delete Entry</sys:String>
+    <sys:String x:Key="Dlg_DeleteBody">Delete every line for \{0} from custom.sty?</sys:String>
+    <sys:String x:Key="Picker_Title">Add Stock Marker</sys:String>
+    <sys:String x:Key="Picker_Filter">Find:</sys:String>
+    <sys:String x:Key="Picker_InFile">(in custom.sty)</sys:String>
+    <sys:String x:Key="Picker_NoBase">The base stylesheet was not found, so there is no list of stock markers.</sys:String>
+    <sys:String x:Key="New_Title">New Marker</sys:String>
+    <sys:String x:Key="New_Marker">Marker (without \):</sys:String>
+    <sys:String x:Key="New_Name">Name:</sys:String>
+    <sys:String x:Key="New_StyleType">Style type:</sys:String>
+    <sys:String x:Key="New_Endmarker">End marker:</sys:String>
+    <sys:String x:Key="New_TextType">Text type:</sys:String>
+    <sys:String x:Key="New_TextProperties">Text properties:</sys:String>
+    <sys:String x:Key="New_ErrEmpty">Type the marker without the backslash, for example zabc.</sys:String>
+    <sys:String x:Key="New_ErrChars">A marker cannot contain spaces, backslashes, # or *.</sys:String>
+    <sys:String x:Key="New_ErrStock">\{0} is in the base stylesheet. Use Add stock marker instead.</sys:String>
+    <sys:String x:Key="New_ErrExists">\{0} is already in custom.sty.</sys:String>
+    <sys:String x:Key="New_ErrName">A name is required.</sys:String>
+    <sys:String x:Key="New_WarnZ">USFM keeps markers that start with z for project-specific use. Add \{0} anyway?</sys:String>
+    <sys:String x:Key="Check_TitleOccursUnder">Where \{0} may occur</sys:String>
+    <sys:String x:Key="Check_TitleTextProperties">Text properties of \{0}</sys:String>
+    <sys:String x:Key="Check_CopyStock">Copy stock list</sys:String>
+    <sys:String x:Key="Check_Clear">Clear</sys:String>
+    <sys:String x:Key="Check_Nest">NEST: may be nested inside another character style</sys:String>
+    <sys:String x:Key="Check_Unknown">(not in the stylesheet)</sys:String>
+
+</ResourceDictionary>

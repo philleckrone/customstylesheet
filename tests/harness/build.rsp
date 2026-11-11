@@ -1,0 +1,8 @@
+-nologo -langversion:5 -out:Harness.exe -r:System.Xml.Linq.dll -r:System.Xml.dll
+Harness.cs Edits.cs
+..\..\CustomStyEditor\Models\StyLine.cs
+..\..\CustomStyEditor\Models\StyDocument.cs
+..\..\CustomStyEditor\Services\StyFileService.cs
+..\..\CustomStyEditor\Services\StyleKeywords.cs
+..\..\CustomStyEditor\Services\StylesheetService.cs
+..\..\CustomStyEditor\Services\ColorService.cs

@@ -1,0 +1,5 @@
+C:\ClaudeCode Projects\Custom_Stylesheet_Editor\CustomStyPlugin\bin\Release\CustomStyEditorPlugin.dll
+C:\ClaudeCode Projects\Custom_Stylesheet_Editor\CustomStyPlugin\bin\Release\CustomStyEditorPlugin.pdb
+C:\ClaudeCode Projects\Custom_Stylesheet_Editor\CustomStyPlugin\obj\Release\CustomStyPlugin.csprojResolveAssemblyReference.cache
+C:\ClaudeCode Projects\Custom_Stylesheet_Editor\CustomStyPlugin\obj\Release\CustomStyEditorPlugin.dll
+C:\ClaudeCode Projects\Custom_Stylesheet_Editor\CustomStyPlugin\obj\Release\CustomStyEditorPlugin.pdb

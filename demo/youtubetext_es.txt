@@ -1,0 +1,20 @@
+﻿El Editor de hoja de estilos personalizada es un complemento de Paratext para el archivo custom.sty de un proyecto, el archivo que cambia cómo se ven y se comportan los marcadores en ese proyecto. Cambie un marcador estándar, por ejemplo su negrita, cursiva o color, defina marcadores nuevos y quite los marcadores que no quiera, viendo cada valor estándar al lado del suyo. Solo se escriben en custom.sty las líneas que usted cambia.
+
+Descargue el complemento (CustomStyEditor.zip) de la carpeta Paratext Plugins:
+https://short.do/HgUb7T
+
+0:24 ¿Cómo abro el Editor de hoja de estilos personalizada?
+0:31 ¿Qué muestra la lista de marcadores?
+1:05 ¿Cómo cambio un marcador de la hoja de estilos base?
+1:22 ¿Cómo quito la negrita de un marcador?
+1:38 ¿Cómo le doy un color a un marcador?
+1:55 ¿Dónde veo el efecto de los cambios?
+2:12 ¿Cómo agrego un marcador que la hoja de estilos base no tiene?
+2:32 ¿Qué diferencia hay entre Quitar y Eliminar?
+2:54 ¿Cómo guardo custom.sty?
+3:03 ¿Por qué Paratext todavía no muestra mis cambios?
+3:18 ¿Cómo instalo la herramienta?
+
+Creado con Claude AI.
+Narración: voz generada por IA (Microsoft Azure AI Speech, voz "Jorge").
+Música: "Smile" de Bensound, © Bensound. Music: https://www.bensound.com

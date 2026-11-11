@@ -1,0 +1,102 @@
+﻿<ScriptureText>
+  <StyleSheet>usfm.sty</StyleSheet>
+  <Versification>1</Versification>
+  <Language>Czech</Language>
+  <MinParatextVersion>8.0.100.76</MinParatextVersion>
+  <FullName>Bible, překlad 21. století</FullName>
+  <Encoding>65001</Encoding>
+  <Editable>T</Editable>
+  <Copyright />
+  <NormalizationForm>NFC</NormalizationForm>
+  <Visibility>Public</Visibility>
+  <FileNamePrePart />
+  <FileNamePostPart>Bible21.SFM</FileNamePostPart>
+  <FileNameBookNameForm>41MAT</FileNameBookNameForm>
+  <DefaultFont>Times New Roman</DefaultFont>
+  <DefaultFontSize>12</DefaultFontSize>
+  <FontFeatures>"cv77" 0</FontFeatures>
+  <HtmlLanguage />
+  <LanguageIsoCode>cs:::</LanguageIsoCode>
+  <BiblicalTermsListSetting>Major::BiblicalTerms.xml</BiblicalTermsListSetting>
+  <MatchBasedOnStems>F</MatchBasedOnStems>
+  <AllowReadAccess>F</AllowReadAccess>
+  <AllowSharingWithSLDR>F</AllowSharingWithSLDR>
+  <TranslationInfo>Standard::</TranslationInfo>
+  <EncodingConverter />
+  <UsfmVersion>3</UsfmVersion>
+  <ParallelPassagesBooks>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ParallelPassagesBooks>
+  <BooksPresent>000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000</BooksPresent>
+  <ChapterVerseSeparator>:</ChapterVerseSeparator>
+  <ReferenceFinalPunctuation />
+  <BookSourceForMarkerXt>Abbreviation</BookSourceForMarkerXt>
+  <BookSourceForMarkerR>ShortName</BookSourceForMarkerR>
+  <OriginRangeOption>NoteInAnyVerse</OriginRangeOption>
+  <CrossReferenceSettingsHaveBeenReviewed>T</CrossReferenceSettingsHaveBeenReviewed>
+  <RefsMustMatchVerseSegments>False</RefsMustMatchVerseSegments>
+  <SegmentsMustHaveFinalPunctuation>False</SegmentsMustHaveFinalPunctuation>
+  <NoSpaceBetweenBookAndChapter>False</NoSpaceBetweenBookAndChapter>
+  <BookChapterSeparator> </BookChapterSeparator>
+  <RangeIndicator>–</RangeIndicator>
+  <SequenceIndicator>, </SequenceIndicator>
+  <ChapterRangeSeparator>—</ChapterRangeSeparator>
+  <BookSequenceSeparator>; </BookSequenceSeparator>
+  <ChapterNumberSeparator>; </ChapterNumberSeparator>
+  <ReferenceExtraMaterial>n </ReferenceExtraMaterial>
+  <BibleModuleAssociations />
+  <DefaultFootnoteCaller>-</DefaultFootnoteCaller>
+  <DefaultCrossRefCaller>-</DefaultCrossRefCaller>
+  <ValidPunctuation>._ !_ ?_ ’ _[ ,_ :_ “ ? ‑ ’_ «_ _» _?_ [ _._ _;_ ]_ – _(_ = (_ , =_ _)_ / . _…_ _]_ …_ _=_ _, _‚ ‘_ - _( )_ _–_ ;_ “_ _„</ValidPunctuation>
+  <AlreadyAppliedDefaultChars>T</AlreadyAppliedDefaultChars>
+  <ValidCharacters>  
+ ‌ ‍ Y É Ď « » א ב ג ד ה ו ז ט ח כ ל ם נ ס ע פ צ ק ר ש ת י ‑ ’ Q Í Ó % / ] [ … = × ó Ú Č x Á F X Ř ‚ Ž U 9 ‘ R G 8 7 Š - L ( ) 6 ň 5 ď 4 ú g f C O 0 3 E ; Z I ? D – 2 ť V M N S A 1 T K ! “ „ B P H J : č ů ý é š ř ž . ě b z c y á , j í h p r u k m d v s t i l n a e o   q — 
+</ValidCharacters>
+  <ValidCharacters_NonText />
+  <InvalidCharacters>  ą  </InvalidCharacters>
+  <InvalidCharacters_NonText />
+  <CharacterCheckSetSeparately>F</CharacterCheckSetSeparately>
+  <PunctuationCheckSetSeparately>F</PunctuationCheckSetSeparately>
+  <ValidPunctuation_NonText />
+  <InvalidPunctuation />
+  <InvalidPunctuation_NonText />
+  <Quotes>„ “</Quotes>
+  <InnerQuotes>‚ ‘</InnerQuotes>
+  <InnerInnerQuotes>‚ ‘</InnerInnerQuotes>
+  <Continuer />
+  <ContinueQuotes>No</ContinueQuotes>
+  <InnerContinuer />
+  <ContinueInnerQuotes>No</ContinueInnerQuotes>
+  <InnerInnerContinuer />
+  <VerboseQuotes>No</VerboseQuotes>
+  <QuoteClosesAllQuoteLevels>No</QuoteClosesAllQuoteLevels>
+  <ContinueAt>p p/q1 b/q1</ContinueAt>
+  <QuotationTypesOption>Recommended</QuotationTypesOption>
+  <QuoteTypesCheckEnabled>F</QuoteTypesCheckEnabled>
+  <ApplyQuoteRulesInFootnoteCitations>T</ApplyQuoteRulesInFootnoteCitations>
+  <Pairs>(/) [/] {/}</Pairs>
+  <ClosedByParagraph>No</ClosedByParagraph>
+  <PoeticStyles>ib iq iq1 iq2 iq3 q q1 q2 q3 q4 qc qr qs qa qac qm qm1 qm2 qm3 b</PoeticStyles>
+  <IntroductionOutlineStyles>io io1 io2 io3 io4</IntroductionOutlineStyles>
+  <MatchedPairsCheckSetSeparately>F</MatchedPairsCheckSetSeparately>
+  <RepeatableWords>se MENE bla ne už</RepeatableWords>
+  <NonRepeatableWords />
+  <ValidParagraphFinalPunctuationItems>q p m q2 q3 pi li</ValidParagraphFinalPunctuationItems>
+  <InvalidParagraphFinalPunctuationItems />
+  <ValidUncapitalizedStyles>fv m add qt xo mt2 q4 fr mt p toc1 pi lim tl qs vp xt em xta fqa li q3 ft q q2</ValidUncapitalizedStyles>
+  <InvalidUncapitalizedStyles />
+  <ValidSentenceFinalPunctCapitalization>! ? .</ValidSentenceFinalPunctCapitalization>
+  <InvalidSentenceFinalPunctCapitalization />
+  <NumberDecimalPoint>,</NumberDecimalPoint>
+  <NumberThousandsSeparator> </NumberThousandsSeparator>
+  <NumberOrdinals>a b c d e f g h i k l m n o p q r s t u v x y z</NumberOrdinals>
+  <NumberInitialPunctuation>-+"({&lt;[$</NumberInitialPunctuation>
+  <NumberFinalPunctuation>)}"&gt;.!?:],;</NumberFinalPunctuation>
+  <NumberMedialPunctuation>-/–</NumberMedialPunctuation>
+  <NumberSpacing>bothRequired</NumberSpacing>
+  <NumberOrdinalType>suffix</NumberOrdinalType>
+  <HindiUrduNumberGrouping>F</HindiUrduNumberGrouping>
+  <NumberSettingsHaveBeenReviewed>T</NumberSettingsHaveBeenReviewed>
+  <SegmentOrder>abcdefghijklmnopqrstuvwxyz</SegmentOrder>
+  <Name>Bible21</Name>
+  <Guid>ec47f84b32d4c18c61768832a7af98889a4b63c0</Guid>
+  <Naming PrePart="" PostPart="Bible21.SFM" BookNameForm="41MAT" />
+</ScriptureText>

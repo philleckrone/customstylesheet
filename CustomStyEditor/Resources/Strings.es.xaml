@@ -1,0 +1,167 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- Menu -->
+    <sys:String x:Key="Menu_File">_Archivo</sys:String>
+    <sys:String x:Key="Menu_New">_Nuevo</sys:String>
+    <sys:String x:Key="Menu_Open">_Abrir…</sys:String>
+    <sys:String x:Key="Menu_Save">_Guardar</sys:String>
+    <sys:String x:Key="Menu_SaveAs">Guardar _como…</sys:String>
+    <sys:String x:Key="Menu_Exit">_Salir</sys:String>
+
+    <!-- Toolbar / project bar / banner -->
+    <sys:String x:Key="Toolbar_Language">Idioma:</sys:String>
+    <sys:String x:Key="ProjectBar_Format">Proyecto: {0}</sys:String>
+    <sys:String x:Key="ProjectBar_Base">Hoja de estilos base: {0}</sys:String>
+    <sys:String x:Key="ProjectBar_BaseMissing">No se encontró la hoja de estilos base {0}; no se pueden mostrar los valores estándar ni la lista de marcadores.</sys:String>
+    <sys:String x:Key="Banner_Reminder">Paratext solo lee custom.sty al iniciarse: después de guardar, cierre Paratext y vuelva a abrirlo para ver los cambios.</sys:String>
+
+    <!-- Marker list -->
+    <sys:String x:Key="Column_Disabled">Desact.</sys:String>
+    <sys:String x:Key="Column_Marker">Marcador</sys:String>
+    <sys:String x:Key="Column_Name">Nombre</sys:String>
+    <sys:String x:Key="Column_Changes">Cambios</sys:String>
+    <sys:String x:Key="Column_Status">Estado</sys:String>
+    <sys:String x:Key="Tip_DisabledColumn">Marcado: toda la entrada está comentada con #, así que Paratext la ignora.</sys:String>
+    <sys:String x:Key="Btn_AddStock">Agregar marcador estándar…</sys:String>
+    <sys:String x:Key="Btn_NewMarker">Marcador nuevo…</sys:String>
+    <sys:String x:Key="Btn_Remove">Quitar de la hoja de estilos</sys:String>
+    <sys:String x:Key="Btn_Restore">Restaurar marcador</sys:String>
+    <sys:String x:Key="Btn_Delete">Eliminar</sys:String>
+    <sys:String x:Key="Tip_AddStock">Personalizar un marcador de la hoja de estilos base.</sys:String>
+    <sys:String x:Key="Tip_NewMarker">Definir un marcador que la hoja de estilos base no tiene. Se agrega al final de custom.sty.</sys:String>
+    <sys:String x:Key="Tip_Remove">Escribe \Marker nombre - para que Paratext deje de ofrecer el marcador.</sys:String>
+    <sys:String x:Key="Tip_Delete">Elimina todas las líneas de esta entrada de custom.sty; el marcador vuelve a su estilo estándar.</sys:String>
+    <sys:String x:Key="Status_New">nuevo</sys:String>
+    <sys:String x:Key="Status_Removed">quitado</sys:String>
+    <sys:String x:Key="Status_Disabled">comentado</sys:String>
+    <sys:String x:Key="Status_Warning">⚠ revisar</sys:String>
+
+    <!-- Property panel -->
+    <sys:String x:Key="Panel_Empty">Seleccione un marcador a la izquierda o agregue uno con los botones debajo de la lista.</sys:String>
+    <sys:String x:Key="Panel_DisabledNote">Esta entrada está comentada (#), así que Paratext la ignora. Desmarque Desact. en la lista para editarla.</sys:String>
+    <sys:String x:Key="Panel_RemovedNote">\Marker {0} - quita este marcador de la hoja de estilos del proyecto. Elija Restaurar marcador para usarlo de nuevo.</sys:String>
+    <sys:String x:Key="Panel_NewNote">\{0} no está en la hoja de estilos base: es un marcador nuevo.</sys:String>
+    <sys:String x:Key="Group_Identity">Nombre y tipo</sys:String>
+    <sys:String x:Key="Group_TextFormat">Formato del texto</sys:String>
+    <sys:String x:Key="Group_Font">Fuente y color</sys:String>
+    <sys:String x:Key="Group_Paragraph">Párrafo</sys:String>
+    <sys:String x:Key="Group_Placement">Dónde puede aparecer</sys:String>
+    <sys:String x:Key="Group_Other">Otros</sys:String>
+    <sys:String x:Key="Group_OtherLines">Otras líneas de esta entrada</sys:String>
+    <sys:String x:Key="Tip_LineEnabled">Marcado: Paratext usa esta línea. Sin marcar: la línea está comentada con #.</sys:String>
+    <sys:String x:Key="Tip_Clear">Quitar esta línea de custom.sty (vuelve a aplicarse el valor estándar).</sys:String>
+    <sys:String x:Key="Row_Stock">{0}: {1}</sys:String>
+    <sys:String x:Key="Row_NotSet">(sin definir)</sys:String>
+    <sys:String x:Key="Row_Overridden">También se define en la línea {0}. Paratext usa la última línea e informa un duplicado.</sys:String>
+    <sys:String x:Key="Flag_NotSet">(sin definir)</sys:String>
+    <sys:String x:Key="Flag_On">Sí</sys:String>
+    <sys:String x:Key="Flag_Off">No (\{0} -)</sys:String>
+    <sys:String x:Key="Flag_StockOn">sí</sys:String>
+    <sys:String x:Key="Flag_StockOff">no</sys:String>
+    <sys:String x:Key="Color_Pick">Elegir color…</sys:String>
+    <sys:String x:Key="Color_NamesLabel">Nombre de color de Paratext:</sys:String>
+    <sys:String x:Key="Color_UnknownName">(nombre de color desconocido)</sys:String>
+    <sys:String x:Key="Btn_Choose">Elegir…</sys:String>
+    <sys:String x:Key="Unit_Points">pt</sys:String>
+    <sys:String x:Key="Unit_Inches">pulgadas</sys:String>
+    <sys:String x:Key="Unit_LineSpacing">0 = sencillo, 1 = 1½, 2 = doble</sys:String>
+    <sys:String x:Key="Note_TextProperties">Paratext agrega estas palabras a las propiedades de texto de la hoja de estilos base; custom.sty no puede quitar ninguna.</sys:String>
+
+    <!-- Keyword tooltips (from the Paratext help) -->
+    <sys:String x:Key="KwTip_Name">El nombre que se muestra en la lista de marcadores. Debe ser único; edítelo para traducir los nombres de los marcadores.</sys:String>
+    <sys:String x:Key="KwTip_Description">Un comentario que describe el marcador. "(basic)" al final lo incluye con los marcadores básicos.</sys:String>
+    <sys:String x:Key="KwTip_StyleType">Paragraph (párrafo), Character (carácter), Note (nota) o Milestone (hito).</sys:String>
+    <sys:String x:Key="KwTip_Endmarker">El marcador final, si lo hay (por ejemplo f*).</sys:String>
+    <sys:String x:Key="KwTip_TextType">El tipo de texto: VerseText, Title, Section, NoteText, Other, BackTranslation...</sys:String>
+    <sys:String x:Key="KwTip_TextProperties">Propiedades como paragraph, publishable, vernacular, poetic, level_1.</sys:String>
+    <sys:String x:Key="KwTip_Bold">El texto va en negrita.</sys:String>
+    <sys:String x:Key="KwTip_Italic">El texto va en cursiva.</sys:String>
+    <sys:String x:Key="KwTip_Underline">El texto va subrayado.</sys:String>
+    <sys:String x:Key="KwTip_Smallcaps">El texto se muestra en versalitas.</sys:String>
+    <sys:String x:Key="KwTip_Superscript">El texto va elevado.</sys:String>
+    <sys:String x:Key="KwTip_Subscript">El texto va rebajado.</sys:String>
+    <sys:String x:Key="KwTip_Regular">Desactiva la negrita, la cursiva y el superíndice.</sys:String>
+    <sys:String x:Key="KwTip_Fontname">Fuente para este marcador. Si no se indica, se usa la fuente del proyecto.</sys:String>
+    <sys:String x:Key="KwTip_FontSize">Tamaño de la fuente en puntos, relativo a 12 (el tamaño de fuente del proyecto lo desplaza).</sys:String>
+    <sys:String x:Key="KwTip_Color">Color del texto: un nombre de color de Paratext (bueno para baja visión o daltonismo) o un color exacto.</sys:String>
+    <sys:String x:Key="KwTip_Justification">Left (izquierda), Center (centro), Right (derecha) o Both (justificado).</sys:String>
+    <sys:String x:Key="KwTip_LeftMargin">Sangría de todo el párrafo, en pulgadas.</sys:String>
+    <sys:String x:Key="KwTip_RightMargin">Sangría derecha del párrafo, en pulgadas.</sys:String>
+    <sys:String x:Key="KwTip_FirstLineIndent">Sangría adicional de la primera línea, en pulgadas (negativa para una sangría francesa).</sys:String>
+    <sys:String x:Key="KwTip_SpaceBefore">Espacio adicional antes del párrafo, en puntos.</sys:String>
+    <sys:String x:Key="KwTip_SpaceAfter">Espacio adicional después del párrafo, en puntos.</sys:String>
+    <sys:String x:Key="KwTip_LineSpacing">Espacio adicional entre líneas: 0 = sencillo, 1 = uno y medio, 2 = doble.</sys:String>
+    <sys:String x:Key="KwTip_OccursUnder">Marcadores bajo los que puede aparecer este marcador, separados por espacios. NEST permite anidar un estilo de carácter dentro de otro.</sys:String>
+    <sys:String x:Key="KwTip_Rank">Con OccursUnder, el orden de los marcadores bajo el mismo marcador superior.</sys:String>
+    <sys:String x:Key="KwTip_NotRepeatable">El marcador no debe repetirse bajo su marcador superior.</sys:String>
+    <sys:String x:Key="KwTip_Attributes">Atributos USFM 3 que acepta el marcador (? = opcional).</sys:String>
+
+    <!-- Preview / file text -->
+    <sys:String x:Key="Preview_Title">Vista previa (aproximada)</sys:String>
+    <sys:String x:Key="FileText_Title">Líneas en custom.sty</sys:String>
+    <sys:String x:Key="Preview_Sample">En el principio creó Dios los cielos y la tierra. Y la tierra estaba desordenada y vacía, y las tinieblas estaban sobre la faz del abismo.</sys:String>
+    <sys:String x:Key="Preview_Before">Texto antes</sys:String>
+    <sys:String x:Key="Preview_Styled">texto con estilo</sys:String>
+    <sys:String x:Key="Preview_After">y texto después.</sys:String>
+    <sys:String x:Key="Preview_Milestone">Un hito no tiene texto para mostrar.</sys:String>
+    <sys:String x:Key="Preview_Removed">Este marcador está quitado de la hoja de estilos.</sys:String>
+
+    <!-- Warnings -->
+    <sys:String x:Key="Warn_Duplicate">\Marker {0} aparece {1} veces. Paratext informa una definición de estilo duplicada.</sys:String>
+    <sys:String x:Key="Warn_DuplicateAttr">\{0} se define más de una vez en esta entrada (líneas {1}). Paratext usa la última e informa un duplicado.</sys:String>
+    <sys:String x:Key="Warn_DashName">\Marker {0} define un marcador nuevo llamado "{0}". Para quitar \{1}, escriba \Marker {1} - (con un espacio).</sys:String>
+    <sys:String x:Key="Warn_Stray">La línea {0} no está comentada, pero la línea \Marker de arriba sí, así que Paratext aplica la línea al marcador anterior.</sys:String>
+    <sys:String x:Key="Warn_NeedsName">Un marcador nuevo necesita \Name y \StyleType; si no, Paratext informa un error.</sys:String>
+    <sys:String x:Key="Warn_UnknownMarkers">No están en la hoja de estilos: {0}</sys:String>
+    <sys:String x:Key="Warn_UnknownWords">No son válidos aquí: {0}</sys:String>
+    <sys:String x:Key="Warn_Invalid">"{0}" no es un valor válido para \{1}.</sys:String>
+    <sys:String x:Key="Warn_Orphans">Paratext ignora {0} línea(s) antes del primer \Marker.</sys:String>
+
+    <!-- Status bar / app -->
+    <sys:String x:Key="App_Title">Editor de hoja de estilos personalizada</sys:String>
+    <sys:String x:Key="Status_Unsaved">(sin guardar)</sys:String>
+    <sys:String x:Key="Status_SummaryFormat">{0} marcadores en el archivo</sys:String>
+    <sys:String x:Key="Status_WarningsFormat">{0} para revisar</sys:String>
+    <sys:String x:Key="Status_Saved">Guardado.</sys:String>
+
+    <!-- Dialogs -->
+    <sys:String x:Key="Btn_OK">Aceptar</sys:String>
+    <sys:String x:Key="Btn_Cancel">Cancelar</sys:String>
+    <sys:String x:Key="Dlg_SaveErrorTitle">Error al guardar</sys:String>
+    <sys:String x:Key="Dlg_SaveErrorBody">No se pudo guardar el archivo:</sys:String>
+    <sys:String x:Key="Dlg_OpenErrorTitle">Error al abrir</sys:String>
+    <sys:String x:Key="Dlg_OpenErrorBody">No se pudo abrir el archivo:</sys:String>
+    <sys:String x:Key="Dlg_UnsavedTitle">Cambios sin guardar</sys:String>
+    <sys:String x:Key="Dlg_UnsavedBody">Hay cambios sin guardar. ¿Desea guardarlos antes de continuar?</sys:String>
+    <sys:String x:Key="Dlg_OpenTitle">Abrir hoja de estilos</sys:String>
+    <sys:String x:Key="Dlg_SaveTitle">Guardar hoja de estilos</sys:String>
+    <sys:String x:Key="Dlg_FileFilter">Hojas de estilos (*.sty)|*.sty|Todos los archivos (*.*)|*.*</sys:String>
+    <sys:String x:Key="Dlg_DeleteTitle">Eliminar entrada</sys:String>
+    <sys:String x:Key="Dlg_DeleteBody">¿Eliminar todas las líneas de \{0} de custom.sty?</sys:String>
+    <sys:String x:Key="Picker_Title">Agregar marcador estándar</sys:String>
+    <sys:String x:Key="Picker_Filter">Buscar:</sys:String>
+    <sys:String x:Key="Picker_InFile">(en custom.sty)</sys:String>
+    <sys:String x:Key="Picker_NoBase">No se encontró la hoja de estilos base, así que no hay lista de marcadores estándar.</sys:String>
+    <sys:String x:Key="New_Title">Marcador nuevo</sys:String>
+    <sys:String x:Key="New_Marker">Marcador (sin \):</sys:String>
+    <sys:String x:Key="New_Name">Nombre:</sys:String>
+    <sys:String x:Key="New_StyleType">Tipo de estilo:</sys:String>
+    <sys:String x:Key="New_Endmarker">Marcador final:</sys:String>
+    <sys:String x:Key="New_TextType">Tipo de texto:</sys:String>
+    <sys:String x:Key="New_TextProperties">Propiedades del texto:</sys:String>
+    <sys:String x:Key="New_ErrEmpty">Escriba el marcador sin la barra invertida, por ejemplo zabc.</sys:String>
+    <sys:String x:Key="New_ErrChars">Un marcador no puede contener espacios, barras invertidas, # ni *.</sys:String>
+    <sys:String x:Key="New_ErrStock">\{0} está en la hoja de estilos base. Use Agregar marcador estándar.</sys:String>
+    <sys:String x:Key="New_ErrExists">\{0} ya está en custom.sty.</sys:String>
+    <sys:String x:Key="New_ErrName">Se necesita un nombre.</sys:String>
+    <sys:String x:Key="New_WarnZ">USFM reserva los marcadores que empiezan con z para uso propio del proyecto. ¿Agregar \{0} de todos modos?</sys:String>
+    <sys:String x:Key="Check_TitleOccursUnder">Dónde puede aparecer \{0}</sys:String>
+    <sys:String x:Key="Check_TitleTextProperties">Propiedades del texto de \{0}</sys:String>
+    <sys:String x:Key="Check_CopyStock">Copiar lista estándar</sys:String>
+    <sys:String x:Key="Check_Clear">Borrar</sys:String>
+    <sys:String x:Key="Check_Nest">NEST: puede anidarse dentro de otro estilo de carácter</sys:String>
+    <sys:String x:Key="Check_Unknown">(no está en la hoja de estilos)</sys:String>
+
+</ResourceDictionary>

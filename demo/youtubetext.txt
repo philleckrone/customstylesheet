@@ -1,0 +1,22 @@
+﻿Custom Stylesheet Editor is a Paratext tool for a project's custom.sty, the file that changes how markers look and behave in that project. Change a stock marker, for example its bold, italic or color, define new markers, and remove markers you don't want, with each stock value shown beside your own. Only the lines you change are written to custom.sty.
+
+Download Install_Phils_tools.exe from the Paratext Plugins folder, and tick Custom Stylesheet Editor in it:
+https://short.do/HgUb7T
+
+0:21 How do I open Custom Stylesheet Editor?
+0:27 What does the marker list show?
+0:57 How do I change a marker of the base stylesheet?
+1:11 How do I turn bold off for a marker?
+1:25 How do I give a marker a color?
+1:41 Where can I see what the changes do?
+1:57 How do I add a marker that the base stylesheet doesn't have?
+2:13 What is the difference between Remove and Delete?
+2:33 How do I save custom.sty?
+2:42 Why doesn't Paratext show my changes yet?
+2:57 How do I install the tool?
+
+Created with Claude AI.
+Narration: AI-generated voice (Microsoft Azure AI Speech, voice "Jenny").
+Music from Free To Use
+Source: https://freetouse.com/music
+Coconut Kind of Love by Aetheric

@@ -1,0 +1,20 @@
+﻿L'Éditeur de feuille de style personnalisée est un outil Paratext pour le fichier custom.sty d'un projet, le fichier qui modifie l'apparence et le comportement des marqueurs dans ce projet. Modifiez un marqueur standard, par exemple son gras, son italique ou sa couleur, définissez de nouveaux marqueurs et retirez ceux dont vous ne voulez pas, avec chaque valeur standard affichée à côté de la vôtre. Seules les lignes que vous modifiez sont écrites dans custom.sty.
+
+Téléchargez l'outil (CustomStyEditor.zip) dans le dossier Paratext Plugins :
+https://short.do/HgUb7T
+
+0:21 Comment ouvrir l'Éditeur de feuille de style personnalisée ?
+0:28 Que montre la liste des marqueurs ?
+0:58 Comment modifier un marqueur de la feuille de style de base ?
+1:13 Comment enlever le gras d'un marqueur ?
+1:28 Comment donner une couleur à un marqueur ?
+1:42 Où voir l'effet des modifications ?
+1:58 Comment ajouter un marqueur que la feuille de style de base n'a pas ?
+2:14 Quelle différence entre Retirer et Supprimer ?
+2:33 Comment enregistrer custom.sty ?
+2:42 Pourquoi Paratext n'affiche-t-il pas encore mes modifications ?
+2:57 Comment installer l'outil ?
+
+Créé avec Claude AI.
+Narration : voix générée par IA (Microsoft Azure AI Speech, voix « Rémy »).
+Musique : « Smile » de Bensound, © Bensound. Music: https://www.bensound.com

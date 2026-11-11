@@ -1,0 +1,292 @@
+{
+  "cues": "{1} before a phrase shows box 1 of the step from there on, {0,2} boxes 0 and 2, {} none; the pointer goes on the first box named. Cues are not spoken or shown. 'q' is the step's question in the YouTube timecodes (youtubetext.txt).",
+  "youtube": {
+    "en": {
+      "about": "Custom Stylesheet Editor is a Paratext tool for a project's custom.sty, the file that changes how markers look and behave in that project. Change a stock marker, for example its bold, italic or color, define new markers, and remove markers you don't want, with each stock value shown beside your own. Only the lines you change are written to custom.sty.",
+      "download": "Download Install_Phils_tools.exe from the Paratext Plugins folder, and tick Custom Stylesheet Editor in it:",
+      "link": "https://short.do/HgUb7T",
+      "credits": [
+        "Created with Claude AI.",
+        "Narration: AI-generated voice (Microsoft Azure AI Speech, voice \"Jenny\").",
+        "Music from Free To Use",
+        "Source: https://freetouse.com/music",
+        "Coconut Kind of Love by Aetheric"
+      ]
+    },
+    "es": {
+      "about": "El Editor de hoja de estilos personalizada es un complemento de Paratext para el archivo custom.sty de un proyecto, el archivo que cambia cómo se ven y se comportan los marcadores en ese proyecto. Cambie un marcador estándar, por ejemplo su negrita, cursiva o color, defina marcadores nuevos y quite los marcadores que no quiera, viendo cada valor estándar al lado del suyo. Solo se escriben en custom.sty las líneas que usted cambia.",
+      "download": "Descargue Install_Phils_tools.exe de la carpeta Paratext Plugins y marque Editor de hoja de estilos personalizada:",
+      "link": "https://short.do/HgUb7T",
+      "credits": [
+        "Creado con Claude AI.",
+        "Narración: voz generada por IA (Microsoft Azure AI Speech, voz \"Jorge\").",
+        "Music from Free To Use",
+        "Source: https://freetouse.com/music",
+        "Coconut Kind of Love by Aetheric"
+      ]
+    },
+    "fr": {
+      "about": "L'Éditeur de feuille de style personnalisée est un outil Paratext pour le fichier custom.sty d'un projet, le fichier qui modifie l'apparence et le comportement des marqueurs dans ce projet. Modifiez un marqueur standard, par exemple son gras, son italique ou sa couleur, définissez de nouveaux marqueurs et retirez ceux dont vous ne voulez pas, avec chaque valeur standard affichée à côté de la vôtre. Seules les lignes que vous modifiez sont écrites dans custom.sty.",
+      "download": "Téléchargez Install_Phils_tools.exe depuis le dossier Paratext Plugins et cochez Éditeur de feuille de style personnalisée :",
+      "link": "https://short.do/HgUb7T",
+      "credits": [
+        "Créé avec Claude AI.",
+        "Narration : voix générée par IA (Microsoft Azure AI Speech, voix « Rémy »).",
+        "Music from Free To Use",
+        "Source: https://freetouse.com/music",
+        "Coconut Kind of Love by Aetheric"
+      ]
+    }
+  },
+  "steps": [
+    {
+      "id": "title",
+      "en": {
+        "title": "Custom Stylesheet Editor",
+        "sub": "A Paratext tool: change how markers look, without editing the file by hand",
+        "text": "Custom Stylesheet Editor is a Paratext tool. It edits a project's custom.sty, the file that changes how markers look and behave in that project. You don't have to type the file by hand."
+      },
+      "es": {
+        "title": "Editor de hoja de estilos personalizada",
+        "sub": "Un complemento de Paratext: cambie cómo se ven los marcadores sin editar el archivo a mano",
+        "text": "El Editor de hoja de estilos personalizada es un complemento de Paratext. Edita el archivo custom.sty de un proyecto, el archivo que cambia cómo se ven y se comportan los marcadores en ese proyecto. No hace falta escribir el archivo a mano."
+      },
+      "fr": {
+        "title": "Éditeur de feuille de style personnalisée",
+        "sub": "Un outil Paratext : modifiez l'apparence des marqueurs sans éditer le fichier à la main",
+        "text": "L'Éditeur de feuille de style personnalisée est un outil de Paratext. Il modifie le fichier custom.sty d'un projet, le fichier qui change l'apparence et le comportement des marqueurs dans ce projet. Inutile de taper le fichier à la main."
+      }
+    },
+    {
+      "id": "s00_menu",
+      "en": {
+        "title": "Open it from the Tools menu",
+        "q": "How do I open Custom Stylesheet Editor?",
+        "text": "In Paratext, choose {0}Tools, then {1}Custom Stylesheet Editor."
+      },
+      "es": {
+        "title": "Se abre desde el menú Herramientas",
+        "q": "¿Cómo abro el Editor de hoja de estilos personalizada?",
+        "text": "En Paratext, elija {0}Herramientas y luego {1}Editor de hoja de estilos personalizada."
+      },
+      "fr": {
+        "title": "Ouvrez-le depuis le menu Outils",
+        "q": "Comment ouvrir l'Éditeur de feuille de style personnalisée ?",
+        "text": "Dans Paratext, choisissez {0}Outils, puis {1}Éditeur de feuille de style personnalisée."
+      }
+    },
+    {
+      "id": "s01_open",
+      "en": {
+        "title": "It opens your project's custom.sty",
+        "q": "What does the marker list show?",
+        "text": "The editor opens the custom.sty of the project you are working on. {0}At the top are the project and its base stylesheet, usually usfm.sty. {1}The list shows each marker in custom.sty, and what it changes. {2}A tick in the Off column means the entry is commented out, so Paratext ignores it. {}If the project has no custom.sty yet, the list starts empty, and saving creates the file."
+      },
+      "es": {
+        "title": "Se abre el custom.sty de su proyecto",
+        "q": "¿Qué muestra la lista de marcadores?",
+        "text": "El editor abre el custom.sty del proyecto en el que usted trabaja. {0}Arriba aparecen el proyecto y su hoja de estilos base, normalmente usfm.sty. {1}La lista muestra cada marcador de custom.sty y lo que cambia. {2}Una marca en la columna Desactivado indica que la entrada está comentada, así que Paratext la pasa por alto. {}Si el proyecto todavía no tiene custom.sty, la lista empieza vacía, y al guardar se crea el archivo."
+      },
+      "fr": {
+        "title": "Il ouvre le custom.sty de votre projet",
+        "q": "Que montre la liste des marqueurs ?",
+        "text": "L'éditeur ouvre le custom.sty du projet sur lequel vous travaillez. {0}En haut figurent le projet et sa feuille de style de base, en général usfm.sty. {1}La liste montre chaque marqueur de custom.sty, et ce qu'il modifie. {2}Une coche dans la colonne Désactivé signifie que l'entrée est mise en commentaire : Paratext l'ignore. {}Si le projet n'a pas encore de custom.sty, la liste est vide au départ, et l'enregistrement crée le fichier."
+      }
+    },
+    {
+      "id": "s02_addstock",
+      "en": {
+        "title": "Change a stock marker",
+        "q": "How do I change a marker of the base stylesheet?",
+        "text": "To change a marker of the base stylesheet, {0}click Add stock marker. {1}Type part of its name to find it. {2}Here we choose the marker for translator's additions, {3}and click OK."
+      },
+      "es": {
+        "title": "Cambiar un marcador estándar",
+        "q": "¿Cómo cambio un marcador de la hoja de estilos base?",
+        "text": "Para cambiar un marcador de la hoja de estilos base, {0}haga clic en Agregar marcador estándar. {1}Escriba parte de su nombre para encontrarlo. {2}Aquí elegimos el marcador de las adiciones del traductor, {3}y hacemos clic en Aceptar."
+      },
+      "fr": {
+        "title": "Modifier un marqueur standard",
+        "q": "Comment modifier un marqueur de la feuille de style de base ?",
+        "text": "Pour modifier un marqueur de la feuille de style de base, {0}cliquez sur Ajouter un marqueur standard. {1}Tapez une partie de son nom pour le trouver. {2}Ici, nous choisissons le marqueur des ajouts du traducteur, {3}puis nous cliquons sur OK."
+      }
+    },
+    {
+      "id": "s03_bold",
+      "en": {
+        "title": "Each value beside its stock value",
+        "q": "How do I turn bold off for a marker?",
+        "text": "{0}On the right, each line shows the stock value. In usfm.sty, additions are bold and italic. {1}To keep them italic but not bold, set Bold to No."
+      },
+      "es": {
+        "title": "Cada valor junto a su valor estándar",
+        "q": "¿Cómo quito la negrita de un marcador?",
+        "text": "{0}A la derecha, cada línea muestra el valor estándar. En usfm.sty, las adiciones van en negrita y cursiva. {1}Para dejarlas en cursiva pero sin negrita, ponga Bold en No."
+      },
+      "fr": {
+        "title": "Chaque valeur à côté de sa valeur standard",
+        "q": "Comment enlever le gras d'un marqueur ?",
+        "text": "{0}À droite, chaque ligne montre la valeur standard. Dans usfm.sty, les ajouts sont en gras et en italique. {1}Pour les garder en italique mais sans gras, mettez Bold sur Non."
+      }
+    },
+    {
+      "id": "s04_color",
+      "en": {
+        "title": "Choose a color",
+        "q": "How do I give a marker a color?",
+        "text": "{0}For the color, choose a Paratext color name, here text_blue. These names follow Paratext's color themes, which helps users with low vision or color blindness. {1}Or choose an exact color."
+      },
+      "es": {
+        "title": "Elegir un color",
+        "q": "¿Cómo le doy un color a un marcador?",
+        "text": "{0}Para el color, elija un nombre de color de Paratext, aquí text_blue. Estos nombres siguen los temas de color de Paratext, lo que ayuda a quienes ven poco o no distinguen bien los colores. {1}O elija un color exacto."
+      },
+      "fr": {
+        "title": "Choisir une couleur",
+        "q": "Comment donner une couleur à un marqueur ?",
+        "text": "{0}Pour la couleur, choisissez un nom de couleur Paratext, ici text_blue. Ces noms suivent les thèmes de couleur de Paratext, ce qui aide les personnes malvoyantes ou daltoniennes. {1}Ou choisissez une couleur exacte."
+      }
+    },
+    {
+      "id": "s05_result",
+      "en": {
+        "title": "See the result",
+        "q": "Where can I see what the changes do?",
+        "text": "{0}The list shows what you changed. {1}The preview gives an idea of the result. {2}Below are the lines the editor writes in custom.sty. Only these lines change; the rest of the file stays as it was."
+      },
+      "es": {
+        "title": "Ver el resultado",
+        "q": "¿Dónde veo el efecto de los cambios?",
+        "text": "{0}La lista muestra lo que usted cambió. {1}La vista previa da una idea del resultado. {2}Abajo están las líneas que el editor escribe en custom.sty. Solo cambian estas líneas; el resto del archivo queda como estaba."
+      },
+      "fr": {
+        "title": "Voir le résultat",
+        "q": "Où voir l'effet des modifications ?",
+        "text": "{0}La liste montre ce que vous avez modifié. {1}L'aperçu donne une idée du résultat. {2}En bas, ce sont les lignes que l'éditeur écrit dans custom.sty. Seules ces lignes changent ; le reste du fichier reste tel quel."
+      }
+    },
+    {
+      "id": "s06_new",
+      "en": {
+        "title": "Define a new marker",
+        "q": "How do I add a marker that the base stylesheet doesn't have?",
+        "text": "{0}New marker defines a marker that the base stylesheet does not have. {1}Type the marker and its name. USFM keeps markers that start with z for a project's own use. {2}Choose its style type, {3}and click OK."
+      },
+      "es": {
+        "title": "Definir un marcador nuevo",
+        "q": "¿Cómo agrego un marcador que la hoja de estilos base no tiene?",
+        "text": "{0}Marcador nuevo define un marcador que la hoja de estilos base no tiene. {1}Escriba el marcador y su nombre. USFM reserva los marcadores que empiezan con z para el uso propio de cada proyecto. {2}Elija su tipo de estilo {3}y haga clic en Aceptar."
+      },
+      "fr": {
+        "title": "Définir un nouveau marqueur",
+        "q": "Comment ajouter un marqueur que la feuille de style de base n'a pas ?",
+        "text": "{0}Nouveau marqueur définit un marqueur que la feuille de style de base n'a pas. {1}Tapez le marqueur et son nom. USFM réserve les marqueurs qui commencent par z à l'usage propre d'un projet. {2}Choisissez son type de style, {3}puis cliquez sur OK."
+      }
+    },
+    {
+      "id": "s07_added",
+      "en": {
+        "title": "Remove or delete",
+        "q": "What is the difference between Remove and Delete?",
+        "text": "{0}The new marker goes at the end of custom.sty. {1}Remove from stylesheet is for stock markers: it takes the marker out of the project's stylesheet, so Paratext no longer offers it. {2}Delete takes an entry out of custom.sty, so the marker goes back to its stock style."
+      },
+      "es": {
+        "title": "Quitar o eliminar",
+        "q": "¿Qué diferencia hay entre Quitar y Eliminar?",
+        "text": "{0}El marcador nuevo va al final de custom.sty. {1}Quitar de la hoja de estilos es para los marcadores estándar: saca el marcador de la hoja de estilos del proyecto, así que Paratext ya no lo ofrece. {2}Eliminar saca una entrada de custom.sty, y el marcador vuelve a su estilo estándar."
+      },
+      "fr": {
+        "title": "Retirer ou supprimer",
+        "q": "Quelle différence entre Retirer et Supprimer ?",
+        "text": "{0}Le nouveau marqueur va à la fin de custom.sty. {1}Retirer de la feuille de style concerne les marqueurs standard : le marqueur sort de la feuille de style du projet, et Paratext ne le propose plus. {2}Supprimer enlève une entrée de custom.sty, et le marqueur retrouve son style standard."
+      }
+    },
+    {
+      "id": "s08_save",
+      "en": {
+        "title": "Save custom.sty",
+        "q": "How do I save custom.sty?",
+        "text": "{0}Choose File, then Save. The changes are saved in the project's custom.sty."
+      },
+      "es": {
+        "title": "Guardar custom.sty",
+        "q": "¿Cómo guardo custom.sty?",
+        "text": "{0}Elija Archivo y luego Guardar. Los cambios se guardan en el custom.sty del proyecto."
+      },
+      "fr": {
+        "title": "Enregistrer custom.sty",
+        "q": "Comment enregistrer custom.sty ?",
+        "text": "{0}Choisissez Fichier, puis Enregistrer. Les modifications sont enregistrées dans le custom.sty du projet."
+      }
+    },
+    {
+      "id": "s09_restart",
+      "en": {
+        "title": "Restart Paratext",
+        "q": "Why doesn't Paratext show my changes yet?",
+        "text": "{0}The status bar says Saved, and the star is gone. {1}Paratext reads custom.sty only when it starts. So close Paratext and open it again to see the changes."
+      },
+      "es": {
+        "title": "Reiniciar Paratext",
+        "q": "¿Por qué Paratext todavía no muestra mis cambios?",
+        "text": "{0}La barra de estado dice Guardado, y el asterisco desapareció. {1}Paratext solo lee custom.sty al iniciarse. Así que cierre Paratext y vuelva a abrirlo para ver los cambios."
+      },
+      "fr": {
+        "title": "Redémarrer Paratext",
+        "q": "Pourquoi Paratext n'affiche-t-il pas encore mes modifications ?",
+        "text": "{0}La barre d'état indique Enregistré, et l'astérisque a disparu. {1}Paratext ne lit custom.sty qu'au démarrage. Fermez donc Paratext et rouvrez-le pour voir les modifications."
+      }
+    },
+    {
+      "id": "sec_install",
+      "en": {
+        "title": "Installing the tool",
+        "q": "How do I install the tool?",
+        "text": "Installing the tool."
+      },
+      "es": {
+        "title": "Instalar la herramienta",
+        "q": "¿Cómo instalo la herramienta?",
+        "text": "Cómo instalar la herramienta."
+      },
+      "fr": {
+        "title": "Installer l'outil",
+        "q": "Comment installer l'outil ?",
+        "text": "Comment installer l'outil."
+      }
+    },
+    {
+      "id": "i5_ready",
+      "en": {
+        "title": "Ready to use",
+        "text": "Start Paratext again. {1,0}Custom Stylesheet Editor is now on the Tools menu."
+      },
+      "es": {
+        "title": "Listo para usar",
+        "text": "Vuelva a abrir Paratext. {1,0}El Editor de hoja de estilos personalizada ya está en el menú Herramientas."
+      },
+      "fr": {
+        "title": "Prêt à l'emploi",
+        "text": "Redémarrez Paratext. {1,0}L'Éditeur de feuille de style personnalisée se trouve maintenant dans le menu Outils."
+      }
+    },
+    {
+      "id": "end",
+      "en": {
+        "title": "Custom Stylesheet Editor",
+        "sub": "Stock values side by side  ·  Only your changes are written  ·  Restart Paratext after saving",
+        "text": "Custom Stylesheet Editor shows each stock value beside your own, and writes only the lines you change in the project's custom.sty. Remember to restart Paratext after you save."
+      },
+      "es": {
+        "title": "Editor de hoja de estilos personalizada",
+        "sub": "Valores estándar al lado de los suyos  ·  Solo se escriben sus cambios  ·  Reinicie Paratext después de guardar",
+        "text": "El Editor de hoja de estilos personalizada muestra cada valor estándar al lado del suyo, y escribe en el custom.sty del proyecto solo las líneas que usted cambia. Recuerde reiniciar Paratext después de guardar."
+      },
+      "fr": {
+        "title": "Éditeur de feuille de style personnalisée",
+        "sub": "Valeurs standard côte à côte  ·  Seules vos modifications sont écrites  ·  Redémarrez Paratext après l'enregistrement",
+        "text": "L'Éditeur de feuille de style personnalisée affiche chaque valeur standard à côté de la vôtre, et n'écrit dans le custom.sty du projet que les lignes que vous modifiez. N'oubliez pas de redémarrer Paratext après l'enregistrement."
+      }
+    }
+  ]
+}

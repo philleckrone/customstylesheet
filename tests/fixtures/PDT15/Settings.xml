@@ -1,0 +1,226 @@
+﻿<ScriptureText>
+  <StyleSheet>usfm.sty</StyleSheet>
+  <BooksPresent>111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000001110111110000010100000000000000</BooksPresent>
+  <Versification>4</Versification>
+  <LanguageIsoCode>es:::</LanguageIsoCode>
+  <Language>Spanish</Language>
+  <MinParatextVersion>8.0.100.76</MinParatextVersion>
+  <FullName>Palabra de Dios Para Todos - para entrenamiento</FullName>
+  <Encoding>65001</Encoding>
+  <Editable>T</Editable>
+  <Copyright>&lt;p&gt;(c) Bible League International 1990&lt;/p&gt;</Copyright>
+  <Name>PDT15</Name>
+  <Guid>49fd2bac129811748c67dbcab9e1163e9081a1e2</Guid>
+  <Visibility>Test</Visibility>
+  <FileNamePrePart />
+  <FileNamePostPart>PDT15.SFM</FileNamePostPart>
+  <FileNameBookNameForm>41MAT</FileNameBookNameForm>
+  <NormalizationForm>NFC</NormalizationForm>
+  <BiblicalTermsListSetting>Major::BiblicalTerms.xml</BiblicalTermsListSetting>
+  <MatchBasedOnStems>F</MatchBasedOnStems>
+  <AllowReadAccess>F</AllowReadAccess>
+  <AllowSharingWithSLDR>F</AllowSharingWithSLDR>
+  <TranslationInfo>Standard::</TranslationInfo>
+  <EncodingConverter />
+  <DefaultFont>Charis</DefaultFont>
+  <DefaultFontSize>14</DefaultFontSize>
+  <FontFeatures />
+  <HtmlLanguage />
+  <SegmentOrder>abcdef</SegmentOrder>
+  <ParatextRegistryId>KqSTRmNDXLcu97PzY</ParatextRegistryId>
+  <AdvancedView>False</AdvancedView>
+  <Quotes>« »</Quotes>
+  <InnerQuotes>“ ”</InnerQuotes>
+  <InnerInnerQuotes>‘ ’</InnerInnerQuotes>
+  <Continuer>»</Continuer>
+  <ContinueQuotes>Yes</ContinueQuotes>
+  <InnerContinuer>”</InnerContinuer>
+  <ContinueInnerQuotes>Yes</ContinueInnerQuotes>
+  <InnerInnerContinuer>’</InnerInnerContinuer>
+  <VerboseQuotes>No</VerboseQuotes>
+  <QuoteClosesAllQuoteLevels>No</QuoteClosesAllQuoteLevels>
+  <ContinueAt>p p/q1 c/q1 b/q1 b/pi pi/pi b/mi mi/pi s/q1 b/li</ContinueAt>
+  <ValidPunctuation>- ‌ ‍ — _(_ _=_ ) # —_ …_ _” – _]_ _…_ _[_ ]_ ’_ )_ ”_ !_ »_ ?_ :_ ,_ ._ _‘ _[ _» _( _“ _¡ _« _¿ _— ?,_ ”,_¡ ?:_ ,_( )_¿ !»_( ’)”._ !”)._ ”;_ ”._¿ !_( !»)_ ».)_ _(« »)_ ?_( ?»)_ ”._¡ ._«¡ »?_ !,_ !»,_ »_( ”?_¡ ,_“ »)._ ._( !_« ?”,_ ._« ?»_( ?_« ,_[…]_ _“¿ !”,_ ”,_¿ ”!_ _—“ .)_ !”»_ »;_ _«¿ ,_« :_¡ _“¡ :_¿ ”?_ ),_ _»¿ :_“¿ _»¡ »._ :_« _—¿ :_“ ”._ ,_¿ _—¡ ?_¿ _[…]_ !»_ ._¿ :_«¡ ._¡ ?»_ :_«¿ ,_¡ !_¡ :_“¡ )._ !”_ ?_¡ ”,_ »,_ ?”_ !_¿ _«¡ ”»._ _― _¿[…]_ _-_ :_‘ _•_ ’._ _(=_ ’”._ _»” _©_ ?”»_ :_‘¡ _»“ ’,_ ?_— ’”»._ ’ ?»,_ .,_ :_‘¿ !’_ ?’_ ?’”_ _»”( —._ !_— …._ !”»._ …!_ ,’”_ ”?»_ ?”_¡ !’,_ ,”_ %_ @ ?”_“¿ / _&amp;_ »:_ ”,_“ ?”_“ ._“ :…._ _[…]_« !»._ _»”¿ .),_ ”_¿ ?”»._ —,_ ?”;_ !”?_ .)._ ;_</ValidPunctuation>
+  <InvalidPunctuation>^_ _,_ . _!_ _] _, _" }_ _{ "_ _—_ _._ , ! ¡ ”.,_ ?._ ,,_ _;_</InvalidPunctuation>
+  <BibleModuleAssociations>XXA:Espiritu_Santo.sfm|XXB:ChurchofEngland_C.lcf|XXE:TheChristmasStoryHarmony.sfm|XXF:TestOfSegmets.sfm</BibleModuleAssociations>
+  <InitialImportBooksDirectory>C:\My Paratext 8 Projects\_PDT</InitialImportBooksDirectory>
+  <InterlinearModelText />
+  <InterlinearRelatedLanguages.NIV11R>False</InterlinearRelatedLanguages.NIV11R>
+  <InterlinearExportText.NIV11R />
+  <InterlinearExportOnApprove.NIV11R>False</InterlinearExportOnApprove.NIV11R>
+  <GuessTranslationsDestinationText>RVR1960</GuessTranslationsDestinationText>
+  <InterlinearRelatedLanguages.GRK>False</InterlinearRelatedLanguages.GRK>
+  <InterlinearExportText.GRK>RdP15</InterlinearExportText.GRK>
+  <InterlinearExportOnApprove.GRK>True</InterlinearExportOnApprove.GRK>
+  <InterlinearRelatedLanguages.RdP15>True</InterlinearRelatedLanguages.RdP15>
+  <InterlinearExportText.RdP15 />
+  <InterlinearExportOnApprove.RdP15>False</InterlinearExportOnApprove.RdP15>
+  <InterlinearRelatedLanguages.RVR1960>False</InterlinearRelatedLanguages.RVR1960>
+  <InterlinearExportText.RVR1960 />
+  <InterlinearExportOnApprove.RVR1960>False</InterlinearExportOnApprove.RVR1960>
+  <ChapterVerseSeparator>:</ChapterVerseSeparator>
+  <ReferenceFinalPunctuation>.</ReferenceFinalPunctuation>
+  <BookSourceForMarkerXt>Abbreviation</BookSourceForMarkerXt>
+  <BookSourceForMarkerR>Abbreviation</BookSourceForMarkerR>
+  <OriginRangeOption>NoteInAnyVerse</OriginRangeOption>
+  <CrossReferenceSettingsHaveBeenReviewed>T</CrossReferenceSettingsHaveBeenReviewed>
+  <RefsMustMatchVerseSegments>False</RefsMustMatchVerseSegments>
+  <SegmentsMustHaveFinalPunctuation>False</SegmentsMustHaveFinalPunctuation>
+  <NoSpaceBetweenBookAndChapter>False</NoSpaceBetweenBookAndChapter>
+  <RangeIndicator>-</RangeIndicator>
+  <SequenceIndicator>, </SequenceIndicator>
+  <ChapterRangeSeparator>–</ChapterRangeSeparator>
+  <BookSequenceSeparator>; | y </BookSequenceSeparator>
+  <ChapterNumberSeparator>; </ChapterNumberSeparator>
+  <ReferenceExtraMaterial> (Septuaginta)</ReferenceExtraMaterial>
+  <CharacterAdvancedView>True</CharacterAdvancedView>
+  <ValidCharacters>  
+ a A á Á b B c C ch d D e E é É f F g G h H i I í Í j J k K l L ll m M n N ñ Ñ o O ó Ó p P q Q r R s S t T u U ú Ú ü Ü v V w W x X Y Z ‌ ‍ # 4 : ; 6 2 0 ” « 5 1 9 8 7 “ ] [ ’ ‘ { 3 ¿ ? » — ― - y z Ch Ll CH ie ( ) ¡ ! , / . ?? ʼ 
+ '</ValidCharacters>
+  <InvalidCharacters>e̱ " ç ï õ }   – ^ = _ * ■ …</InvalidCharacters>
+  <SentenceFinalAdvancedView>True</SentenceFinalAdvancedView>
+  <SentenceFinalPunctuation>. ! ? :</SentenceFinalPunctuation>
+  <MarkersCheckedForFinalPunctuation>io ip im ipi imi ipq imq ipr ib iq iq1 iq2 iq3 iex ie p m pmo pm pmc pmr pi pi1 pi2 pi3 pc mi nb cls q q1 q2 q3 q4 qc qr qa qm qm1 qm2 qm3 b d tr li li1 li2 li3 li4 lit p1 p2 k1 k2 pr ph ph1 ph2 ph3 phi tr1 tr2 ps psi pub toc pref intro conc glo idx maps cov spine</MarkersCheckedForFinalPunctuation>
+  <MarkersStartingNewSentencesForFinalPunctuation>mi ip p b is is1 is2 ms ms1 ms2 ms3 mr s s1 s2 s3 s4 sr r sp periph</MarkersStartingNewSentencesForFinalPunctuation>
+  <MarkersSkippedForFinalPunctuation>qs</MarkersSkippedForFinalPunctuation>
+  <CheckFinalPunctuationInFootnotes>Yes</CheckFinalPunctuationInFootnotes>
+  <CheckFinalPunctuationInCrossRefs>Yes</CheckFinalPunctuationInCrossRefs>
+  <CheckFinalPunctuationInFigures>Yes</CheckFinalPunctuationInFigures>
+  <ValidParagraphFinalPunctuationItems>toca1_. toca1_! toca1_? toca1_: toca2_. toca2_! toca2_? toca2_: toca3_. toca3_! toca3_? toca3_: io_. io_! io_? io_: ip_. ip_! ip_? ip_: im_. im_! im_? im_: ipi_. ipi_! ipi_? ipi_: imi_. imi_! imi_? imi_: ipq_. ipq_! ipq_? ipq_: imq_. imq_! imq_? imq_: ipr_. ipr_! ipr_? ipr_: ib_. ib_! ib_? ib_: iq_. iq_! iq_? iq_: iq1_. iq1_! iq1_? iq1_: iq2_. iq2_! iq2_? iq2_: iq3_. iq3_! iq3_? iq3_: iex_. iex_! iex_? iex_: ie_. ie_! ie_? ie_: p_. p_! p_? p_: m_. m_! m_? m_: po_. po_! po_? po_: pr_. pr_! pr_? pr_: cls_. cls_! cls_? cls_: pmo_. pmo_! pmo_? pmo_: pm_. pm_! pm_? pm_: pmc_. pmc_! pmc_? pmc_: pmr_. pmr_! pmr_? pmr_: pi_. pi_! pi_? pi_: pi1_. pi1_! pi1_? pi1_: pi2_. pi2_! pi2_? pi2_: pi3_. pi3_! pi3_? pi3_: pc_. pc_! pc_? pc_: mi_. mi_! mi_? mi_: nb_. nb_! nb_? nb_: q_. q_! q_? q_: q1_. q1_! q1_? q1_: q2_. q2_! q2_? q2_: q3_. q3_! q3_? q3_: q4_. q4_! q4_? q4_: qc_. qc_! qc_? qc_: qr_. qr_! qr_? qr_: qa_. qa_! qa_? qa_: qm_. qm_! qm_? qm_: qm1_. qm1_! qm1_? qm1_: qm2_. qm2_! qm2_? qm2_: qm3_. qm3_! qm3_? qm3_: qd_. qd_! qd_? qd_: b_. b_! b_? b_: d_. d_! d_? d_: tr_. tr_! tr_? tr_: lh_. lh_! lh_? lh_: li_. li_! li_? li_: li1_. li1_! li1_? li1_: li2_. li2_! li2_? li2_: li3_. li3_! li3_? li3_: li4_. li4_! li4_? li4_: lf_. lf_! lf_? lf_: lim_. lim_! lim_? lim_: lim1_. lim1_! lim1_? lim1_: lim2_. lim2_! lim2_? lim2_: lim3_. lim3_! lim3_? lim3_: lim4_. lim4_! lim4_? lim4_: lit_. lit_! lit_? lit_: p1_. p1_! p1_? p1_: p2_. p2_! p2_? p2_: k1_. k1_! k1_? k1_: k2_. k2_! k2_? k2_: ph_. ph_! ph_? ph_: ph1_. ph1_! ph1_? ph1_: ph2_. ph2_! ph2_? ph2_: ph3_. ph3_! ph3_? ph3_: phi_. phi_! phi_? phi_: tr1_. tr1_! tr1_? tr1_: tr2_. tr2_! tr2_? tr2_: ps_. ps_! ps_? ps_: psi_. psi_! psi_? psi_: pub_. pub_! pub_? pub_: toc_. toc_! toc_? toc_: pref_. pref_! pref_? pref_: intro_. intro_! intro_? intro_: conc_. conc_! conc_? conc_: glo_. glo_! glo_? glo_: idx_. idx_! idx_? idx_: maps_. maps_! maps_? maps_: cov_. cov_! cov_? cov_: spine_. spine_! spine_? spine_: f_. f_! f_? f_: fe_. fe_! fe_? fe_: ef_. ef_! ef_? ef_: efe_. efe_! efe_? efe_: x_. x_! x_? x_: ex_. ex_! ex_? ex_: fig_. fig_! fig_? fig_: tr m li_; m_, mi_, p_, li_, q1_, io x</ValidParagraphFinalPunctuationItems>
+  <InvalidParagraphFinalPunctuationItems>mi p pc</InvalidParagraphFinalPunctuationItems>
+  <DefaultCrossRefCaller>-</DefaultCrossRefCaller>
+  <Pairs>(/) [/] {/} ¿/? ¡/!</Pairs>
+  <ClosedByParagraph>Yes</ClosedByParagraph>
+  <PoeticStyles>ib iq iq1 iq2 iq3 q q1 q2 q3 q4 qc qr qs qa qac qm qm1 qm2 qm3 b</PoeticStyles>
+  <IntroductionOutlineStyles>io io1 io2 io3 io4</IntroductionOutlineStyles>
+  <ValidUncapitalizedStyles>w it xt m mi pc sc fq tl li ft q1 fqa fk q2 li1 xo</ValidUncapitalizedStyles>
+  <InvalidUncapitalizedStyles>p s</InvalidUncapitalizedStyles>
+  <RepeatableWords />
+  <NonRepeatableWords>a de</NonRepeatableWords>
+  <MatchedPairingCharacters />
+  <UnmatchedPairingCharacters>¿ ? ( !</UnmatchedPairingCharacters>
+  <NumberDecimalPoint>.</NumberDecimalPoint>
+  <NumberThousandsSeparator />
+  <NumberOrdinals>st nd rd th</NumberOrdinals>
+  <NumberInitialPunctuation>-+“({&lt;[$«</NumberInitialPunctuation>
+  <NumberFinalPunctuation>)}”&gt;.!?],:;»”%</NumberFinalPunctuation>
+  <NumberMedialPunctuation>/-:;,–</NumberMedialPunctuation>
+  <NumberOrdinalType>suffix</NumberOrdinalType>
+  <HindiUrduNumberGrouping>F</HindiUrduNumberGrouping>
+  <NumberSettingsHaveBeenReviewed>T</NumberSettingsHaveBeenReviewed>
+  <Abbreviations>d. C. a. C.</Abbreviations>
+  <ValidMixedCapitalization>Yubal-Caín</ValidMixedCapitalization>
+  <InvalidMixedCapitalization>JesuCristo elBautista elHijo UNos enFermo deJesús</InvalidMixedCapitalization>
+  <ValidSentenceFinalPunctCapitalization>? ! : !, :\0020// ») ?”, ”; ?» ] ?, ,\0020// !», !”, ?” »; !” ) ), ” », // ”, » […] ; , :\0020« !» ?\0020— :\0020¡ ?», :\0020¿ :\0020“ !’, ?\0020¿ ?”; !\0020—</ValidSentenceFinalPunctCapitalization>
+  <InvalidSentenceFinalPunctCapitalization>.</InvalidSentenceFinalPunctCapitalization>
+  <DefaultFootnoteCaller>+</DefaultFootnoteCaller>
+  <UsfmVersion>3</UsfmVersion>
+  <InterlinearModelTextId>ff913c55498d23809119a597a5fb11feb2373e14abcdefff</InterlinearModelTextId>
+  <InterlinearExportTextId.RVR1960 />
+  <InterlinearConversionCompletedBy>Phil Leckrone</InterlinearConversionCompletedBy>
+  <NumberSpacing>bothRequired</NumberSpacing>
+  <AssociatedLexicalProject />
+  <ParallelPassagesBooks>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ParallelPassagesBooks>
+  <MarkerAdvancedView>True</MarkerAdvancedView>
+  <IgnoreWhenFollowedByFinalPunctuationParameter>q/q q1/q1 q1/q2 q2/q2 q2/q1 q2/q3 q3/q3 q3/q2 q3/q4 q4/q4 /q4/q3 li/li li1/li1 li1/li2 li2/li2 li2/li1 li2/li3 li3/li3 li3/li2 li3/li4 li4/li4 li4/li3 qm/qm qm1/qm1 qm1/qm2 qm2/qm2 qm2/qm1 qm2/qm3 qm3/qm3 qm3/qm2 lim/lim lim1/lim1 lim1/lim2 lim2/lim2 lim2/lim1 lim2/lim3 lim3/lim3 lim3/lim2 lim3/lim4 lim4/lim4 lim4/lim3 iq/iq iq1/iq1 iq1/iq2 iq2/iq2 iq2/iq1 iq2/iq3 iq3/iq3 iq3/iq2 li/li li1/li1 li1/li2 li2/li2 li2/li1</IgnoreWhenFollowedByFinalPunctuationParameter>
+  <WordPrefixes>ra</WordPrefixes>
+  <WordSuffixes>es am</WordSuffixes>
+  <QuotationTypesOption>Recommended</QuotationTypesOption>
+  <ReportMissingExpectedQuotes>T</ReportMissingExpectedQuotes>
+  <ReportUnexpectedQuotes>T</ReportUnexpectedQuotes>
+  <IncludeRef>Yes</IncludeRef>
+  <MatchCase>Yes</MatchCase>
+  <DotAll>No</DotAll>
+  <resetAllQuotes>No</resetAllQuotes>
+  <deleteExtraSpaces>No</deleteExtraSpaces>
+  <smartenWordMedialApostrophe>No</smartenWordMedialApostrophe>
+  <rtl>No</rtl>
+  <preGlossEntry>\p \k</preGlossEntry>
+  <gloFilename>A9GLO*.SFM</gloFilename>
+  <ignoreGlossCharacters>: ; - – —</ignoreGlossCharacters>
+  <postGloKeyword>\k*</postGloKeyword>
+  <OnlyCheck>No</OnlyCheck>
+  <outputGlossFormat>$S\f + \fk $C: \ft $D\f*</outputGlossFormat>
+  <FlexIntegrationMode>PTX_ONLY</FlexIntegrationMode>
+  <RoughLength>Yes</RoughLength>
+  <FontFilename>C:\Windows\Fonts\ArialUni.ttf</FontFilename>
+  <MinSample>un-</MinSample>
+  <RemoveGuessedHyphenation>No</RemoveGuessedHyphenation>
+  <AddAsteriskToAll>Yes</AddAsteriskToAll>
+  <DeprioritizeApproved>Yes</DeprioritizeApproved>
+  <DeprioritizeHardHyphens>No</DeprioritizeHardHyphens>
+  <ShowScores>No</ShowScores>
+  <OmitFields>fig</OmitFields>
+  <OptionBasePlan>NullValue</OptionBasePlan>
+  <OptionChecks>all</OptionChecks>
+  <OptionLanguage>es</OptionLanguage>
+  <OptionStagesExpanded>Y</OptionStagesExpanded>
+  <OptionTasksExpanded>N</OptionTasksExpanded>
+  <MarkersRequiringSentenceFinalPunctuation>iex im imi imq ip ipi ipq ipr m mi nb p p1 p2 pc pi pi1 pi2 pi3</MarkersRequiringSentenceFinalPunctuation>
+  <ShowFnoteErrors>Yes</ShowFnoteErrors>
+  <ShowXrefErrors>Yes</ShowXrefErrors>
+  <showMsgNumbers>No</showMsgNumbers>
+  <QuoteTypesCheckEnabled>T</QuoteTypesCheckEnabled>
+  <FlagDeprecatedMarkers>True</FlagDeprecatedMarkers>
+  <UncapitalizedPrefixes>NullValue</UncapitalizedPrefixes>
+  <CapitalizedSuffixes />
+  <CapitalizedPrefixes>Ꞌ</CapitalizedPrefixes>
+  <ApplyQuoteRulesInFootnoteCitations>T</ApplyQuoteRulesInFootnoteCitations>
+  <AllowInvisibleChars>F</AllowInvisibleChars>
+  <ValidCharacters_NonText>  
+ a A á Á b B d D e E é É f F g G h H i I í Í j J k K m M n N ñ Ñ o O ó Ó p P q Q r R s S t T u U ú Ú ü Ü v V w W x X y Y z Z - ‌ ‍ = 1 ) Ch Ll CH ie IE ‘ – ’ • * ] [ … “ ” ¡ ! ¿ « ; ? — » ch 8 9 7 0 6 C L 5 ll 4 3 2 , / . : c l ( ■ _ # { ― ?? ʼ 
+ '</ValidCharacters_NonText>
+  <InvalidCharacters_NonText>% e̱ " ç ï õ }   ^</InvalidCharacters_NonText>
+  <BookChapterSeparator> </BookChapterSeparator>
+  <UseParentheses>Yes</UseParentheses>
+  <RemoveAllExisting>Yes</RemoveAllExisting>
+  <ValidPunctuation_NonText>- ‌ ‍ — _(_ _=_ ) # —_ …_ _” – _]_ _…_ _[_ ]_ ’_ )_ ”_ !_ »_ ;_ ?_ :_ ,_ ._ _‘ _[ _» _( _“ _¡ _« _¿ _— ?,_ ”,_¡ ?:_ ,_( )_¿ !»_( ’)”._ !”)._ ”;_ ”._¿ !_( !»)_ ».)_ _(« »)_ ?_( ?»)_ ”._¡ ._«¡ »?_ !,_ !»,_ »_( ”?_¡ ,_“ »)._ ._( !_« ?”,_ ._« ?»_( ?_« ,_[…]_ _“¿ !”,_ ”,_¿ ”!_ _—“ .)_ !”»_ »;_ _«¿ ,_« :_¡ _“¡ :_¿ ”?_ ),_ _»¿ :_“¿ _»¡ »._ :_« _—¿ :_“ ”._ ,_¿ _—¡ ?_¿ _[…]_ !»_ ._¿ :_«¡ ._¡ ?»_ :_«¿ ,_¡ !_¡ :_“¡ )._ !”_ ?_¡ ”,_ »,_ ?”_ !_¿ _«¡ ”»._ _― _¿[…]_ _-_ :_‘ _•_ ’._ _(=_ ’”._ _»” _©_ ?”»_ :_‘¡ _»“ ’,_ ?_— ’”»._ ’ ?»,_ .,_ :_‘¿ !’_ ?’_ ?’”_ _»”( —._ !_— …._ !”»._ …!_ ,’”_ ”?»_ ?”_¡ !’,_ ,”_ %_ @ ?”_“¿ / _&amp;_ »:_ ”,_“ ?”_“ ._“ :…._ _[…]_« !»._ _»”¿ .),_ ”_¿ ?”»._ —,_ ?”;_ !”?_ .)._ _■_</ValidPunctuation_NonText>
+  <InvalidPunctuation_NonText>. ^_ _,_ _!_ _] _, _" }_ _{ "_ _—_ _._ , ! ¡ ”.,_ ?._ ,,_</InvalidPunctuation_NonText>
+  <CharacterCheckSetSeparately>T</CharacterCheckSetSeparately>
+  <PunctuationCheckSetSeparately>T</PunctuationCheckSetSeparately>
+  <AlreadyAppliedDefaultChars>T</AlreadyAppliedDefaultChars>
+  <platformScripture.validMarkers />
+  <platformScripture.invalidMarkers />
+  <MinChars>20</MinChars>
+  <CheckOtherMarkers>No</CheckOtherMarkers>
+  <OtherMarkers>q q1 q2 q3 q4</OtherMarkers>
+  <FinalPunctuation>.?!:¿¡</FinalPunctuation>
+  <MinCharsBeforePunct>30</MinCharsBeforePunct>
+  <NonFinalPunctuation>,;:</NonFinalPunctuation>
+  <CheckFinalPunct>Yes</CheckFinalPunct>
+  <CheckDoubleVerse>Yes</CheckDoubleVerse>
+  <CheckTextBeforeVerse>Yes</CheckTextBeforeVerse>
+  <CheckHangingWord>Yes</CheckHangingWord>
+  <QuotationMarks>«“‘—</QuotationMarks>
+  <CapitalizedOnly>Yes</CapitalizedOnly>
+  <ChapterVerseSep>:</ChapterVerseSep>
+  <Clickable>No</Clickable>
+  <MatchedPairsCheckSetSeparately>F</MatchedPairsCheckSetSeparately>
+  <MatchedPairingCharacters_NonText />
+  <UnmatchedPairingCharacters_NonText />
+  <MarkersToInclude>\q1</MarkersToInclude>
+  <MarkersToIgnore />
+  <IgnoreIntroductions>Yes</IgnoreIntroductions>
+  <IgnoreNotes>Yes</IgnoreNotes>
+  <StandardText>ZTG</StandardText>
+  <Err_Compare>Compare</Err_Compare>
+  <Err_InvalidPair>Invalid pair:</Err_InvalidPair>
+  <Err_CouldNotFind>Could not find:</Err_CouldNotFind>
+  <Err_None>(none)</Err_None>
+  <CloseBy>\p</CloseBy>
+  <IgnoreTheseAfterNumber>)</IgnoreTheseAfterNumber>
+  <Err_OverlappingMarkers>Overlapping markers:</Err_OverlappingMarkers>
+  <Err_UnmatchedPunctuation>Unmatched punctuation</Err_UnmatchedPunctuation>
+  <Err_NoMatchedPairs>Must have at least one set of matched pairs defined</Err_NoMatchedPairs>
+  <Err_NotClosedBefore>Not closed before:</Err_NotClosedBefore>
+  <AddMissing>Yes</AddMissing>
+  <SourceFile>Both</SourceFile>
+  <UseAllBiblicalTerms>Yes</UseAllBiblicalTerms>
+  <UseBiblicalTerms>Yes</UseBiblicalTerms>
+  <IgnoreDC>Yes</IgnoreDC>
+  <IncludeHebrew>Yes</IncludeHebrew>
+  <IncludeGreek>Yes</IncludeGreek>
+  <WordsToIgnore>Mesías, Señor, Espíritu</WordsToIgnore>
+  <AllowCapAfterQuote>Yes</AllowCapAfterQuote>
+  <Naming PrePart="" PostPart="PDT15.SFM" BookNameForm="41MAT" />
+</ScriptureText>
